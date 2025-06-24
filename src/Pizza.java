@@ -29,4 +29,29 @@ public class Pizza {
 	public void setCommande(Commande newVal){
 		m_Commande = newVal;
 	}
+	
+	// Getters et setters pour les attributs
+	public String getIngredient() {
+		return ingredient;
+	}
+
+	public void setIngredient(String ingredient) {
+		this.ingredient = ingredient;
+	}
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public double getPrix() {
+		return Prix;
+	}
+
+	public void setPrix(double prix) {
+		Prix = prix;
+	}
 }
